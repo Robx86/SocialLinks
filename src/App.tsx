@@ -9,7 +9,7 @@ import Image from "@/assets/avatar-jessica.jpeg";
 
 const Home = () => {
   return (
-    <div className="bg-background h-full min-h-screen flex items-center justify-center">
+    <main className="bg-background h-full min-h-screen flex items-center justify-center">
       <div className="bg-foreground w-full mx-6 p-6 md:p-10 rounded-[0.75rem] md:max-w-[28.5rem] lg:max-w-96">
         <div className="flex flex-col items-center text-white">
           <Avatar>
@@ -36,7 +36,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
