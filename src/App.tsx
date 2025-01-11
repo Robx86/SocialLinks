@@ -16,13 +16,15 @@ const Home = () => {
             <AvatarImage src={Image} />
             <AvatarFallback>JR</AvatarFallback>
           </Avatar>
-          <h1 className="text-2xl tracking-normal font-bold mb-1 mt-4 sora">
+          <h1 className="text-2xl tracking-normal font-bold mb-1 mt-6 sora">
             Jessica Randall
           </h1>
           <h2 className="text-sm text-primary-green tracking-normal font-bold sora">
             London, United Kingdom
           </h2>
-          <h3 className="my-6">"Front-end developer and avid reader."</h3>
+          <h3 className="my-6 text-sm">
+            "Front-end developer and avid reader."
+          </h3>
           <div className="w-full flex gap-4 flex-col">
             {SocialLinksData.map((item) => {
               return (
