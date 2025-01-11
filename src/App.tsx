@@ -13,7 +13,7 @@ const Home = () => {
       <div className="bg-foreground w-full mx-6 p-6 md:p-10 rounded-[0.75rem] md:max-w-[28.5rem] lg:max-w-96">
         <div className="flex flex-col items-center text-white">
           <Avatar>
-            <AvatarImage src={Image} />
+            <AvatarImage src={Image} alt="Jessica" />
             <AvatarFallback>JR</AvatarFallback>
           </Avatar>
           <h1 className="text-2xl tracking-normal font-bold mb-1 mt-6 sora">
